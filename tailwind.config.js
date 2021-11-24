@@ -3,7 +3,12 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Roboto': ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+        'WorkSans': ['Work_Sans', 'serif']
+      }
+    },
   },
   variants: {
     extend: {},
